@@ -8,4 +8,9 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
-      - run: echo $GITHUB_REPOSITORY
+  testing_syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run build script
+        run: ./.github/scripts/echo.sh
+        shell: bash
