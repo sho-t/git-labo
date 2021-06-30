@@ -13,3 +13,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: |
             🔥 優先度：高
+            ⚠️ 優先度：中
+            🍵 優先度: 低
