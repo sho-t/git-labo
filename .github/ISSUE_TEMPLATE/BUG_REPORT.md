@@ -2,6 +2,7 @@
 
 name: 🐛 Bug report
 about: バグ報告Issue
+labels: '🐛 bug'
 ---
 
 ## 発生環境

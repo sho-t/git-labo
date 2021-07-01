@@ -2,6 +2,7 @@
 
 name: 🚀 Feature Request
 about: タスクの整理と内容を記す
+labels: '🌟 feature'
 ---
 
 #### １．概要
