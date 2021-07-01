@@ -1,11 +1,11 @@
 name: "Add WIP Label"
 
 on:
-  pull_requests:
+  pull_request:
     types: [opened, converted_to_draft]
 jobs:
   add_labels:
-    if: github.event.pull_request.draft === true
+    if: github.event.pull_request.draft == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
