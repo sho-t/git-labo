@@ -3,4 +3,4 @@
   - .github/workflows/**/*
 
 📝 docs:
-  - *.md
+  - '*.md'
