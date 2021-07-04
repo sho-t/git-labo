@@ -4,7 +4,7 @@ on:
   pull_request:
     types: [opened, converted_to_draft]
 jobs:
-  add_labels:
+  add_wip_label:
     if: github.event.pull_request.draft == true
     runs-on: ubuntu-latest
     steps:

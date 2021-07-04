@@ -1,10 +1,10 @@
-name: "labels"
+name: "Remove Priority Label"
 
 on:
   issues:
     types: [closed]
 jobs:
-  remove_labels:
+  remove_priority_labels:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
